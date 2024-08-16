@@ -1,0 +1,17 @@
+{
+  "name": "basic-linkshortener-node",
+  "version": "0.0.0",
+  "description": "Basic link shortener with express and SQLite3 as a database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Rednexie",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "better-sqlite3": "^11.1.2",
+    "express": "^4.19.2"
+  }
+}
